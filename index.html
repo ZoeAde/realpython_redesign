@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Real Python</title>
+        <!-- https://www.google.com/fonts#UsePlace:use/Collection:Lato:200,300,300italic -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:200,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="prism.css">
+        <link rel="stylesheet" href="home.css">
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="prism.js"></script>
+        <script src="home.js"></script>
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="header-logo" href="#">Real Python</div>
+            <ul class="header-links">
+                <li><a href="#tutorial"><i class="fa fa-code"></i> Courses</a></li>
+                <li><a href="https://github.com/joewalnes/Real Python/wiki" target="_blank"><i class="fa fa-book"></i> Resources</a></li>
+                <li><a href="https://github.com/joewalnes/Real Python" target="_blank"><i class="fa fa-comments"></i> Testimonials</a></li>
+                <li><a href="#download"><i class="fa fa-file-text"></i> Blog</a></li>
+                <li><a href="#download"><i class="fa fa-edit"></i> Write For Us</a></li>
+                <li><a href="#download"><i class="fa fa-usd"></i> Promo</a></li>
+                <li><a href="#download"><i class="fa fa-github"></i> Support</a></li>
+            </ul>
+        </header>
+
+        <a class="xref" name="home"></a>
+        <section class="section section-hero">
+            <div class="container">
+                <h1>REAL PYTHON</h1>
+                <h2>Python Programming By Example</h2>
+            </div>
+        </section>
+
+        <section class="section section-summary">
+            <div class="container">
+                <h3>Real Python is the premier course<br>for Python web development.</h3>
+                <p>It teaches programming and web development through<br> hands-on,
+                 interesting examples that are useful and fun!<br>
+                Join the thousands who have already benefited from these<br>unique Python courses and download your copy today.</p>
+                <h3><em>Get three courses, with over 1,300 pages of content - packed with<br>exercises, sample files, assignments, and videos for only $60!</em></h3>
+<!--                 <p>
+                    <iframe allowtransparency="true" frameborder="0" height="30" scrolling="0" src="//ghbtns.com/github-btn.html?user=realpython&amp;repo=dockerizing-django&amp;type=watch&amp;count=true&amp;size=large" width="150"></iframe>
+                </p> -->
+<span class="github-btn github-stargazers github-btn-large" id="github-btn"><a class="gh-btn" id="gh-btn" href="https://github.com/realpython/dockerizing-django/" target="_blank" aria-label="Star on GitHub"><span class="gh-ico" aria-hidden="true"></span> <span class="gh-text" id="gh-text">Star</span></a> <a class="gh-count" id="gh-count" href="https://github.com/joewalnes/websocketd/stargazers" target="_blank" aria-label="6,720 stargazers on GitHub" style="display: block;">6,720</a></span>
+            </div>
+        </section>
+
+        <section class="section section-benefits">
+            <div class="container">
+                <div class="cols-3">
+                    <h1>Three Couse Levels</h1>
+                    <div>
+                        <h3>1. Introduction to Python</h3>
+                        <p>The first half of the Introduction to Python is a quick yet thorough overview of all the Python basics. You do not need any prior experience with programming to get started. The second half, meanwhile, is focused on solving interesting, real-world problems in a practical manner.</p>
+                    </div>
+                    <div>
+                        <h3>2. Web Development with Python</h3>
+                        <p>Web Development with Python teaches you how to build web sites and applications quickly and efficiently using Python. You will learn everything from the basic fundamentals of web development to web scraping to advanced web frameworks like Flask, web2py, and Django.</p>
+                    </div>
+                    <div>
+                        <h3>3. Advances Web Development with Django</h3>
+                        <p>Advanced Web Development with Django is a practical, real-world guide to Django that is much more than just a series of Python tutorials. You will learn test driven development, how to write maintainable code, efficient Git branching, and much more, all while focusing on the software engineering practices that go into developing great software.</p>
+                    </div>
+                </div>
+                <div class="summary">
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-philosophy">
+            <div class="container">
+                <h3>Don't take our word for it. Hear directly from our students.</h3>
+                <blockquote>
+                    <i class="fa fa-quote-left"></i>
+                    Real Python is an awesome resource for the budding developer. Not only will you learn Python, you will learn how to use it as you build practical and functional web-based applications that increase in complexity throughout the course. The series introduced me to the power of Flask, demystified Django, and got me thinking of development as craftsmanship.
+                    <i class="fa fa-quote-right"></i>
+                </blockquote>
+                <p>Jared Nielsen / <a href="https://twitter.com/jarednielsen">@jarednielsen</a></p>
+            </div>
+        </section>
+
+        <a class="xref" name="tutorial"></a>
+        <section class="section section-tutorial">
+            <div class="container">
+                <h1>10 second tutorial</h1>
+                <p>Let's create a tiny WebSocket server that counts to ten, pausing between each
+                    iteration.</p>
+                <p>Create a program in Python:</p>
+
+                <div class="tab-box language">
+                    <ul class="tabs">
+                        <li data-content="content-bash">Bash</li>
+                        <li data-content="content-java">Java</li>
+                        <li data-content="content-python">Python</li>
+                        <li data-content="content-ruby">Ruby</li>
+                        <li data-content="content-php">PHP</li>
+                        <li data-content="content-perl">Perl</li>
+                        <li data-content="content-c">C</li>
+                        <li data-content="content-csharp">C#</li>
+                        <li data-content="content-swift">Swift</li>
+                        <li data-content="content-anything">In fact... anything!</li>
+                    </ul>
+                    <div class="content">
+<pre class="code content-bash"><code class="language-bash">#!/bin/bash
+
+# Count from 1 to 10 with a sleep
+for ((COUNT = 1; COUNT <= 10; COUNT++)); do
+  echo $COUNT
+  sleep 0.5
+done</code></pre>
+
+<pre class="code content-java"><code class="language-java">class Counter {
+  public static void main(String [] args) throws Exception {
+    for (int i=0; i<10; i++) {
+      System.out.println(i);
+      Thread.sleep(500);
+    }
+  }
+}
+</code></pre>
+
+<pre class="code content-python"><code class="language-python">#!/usr/bin/python
+from sys import stdout
+from time import sleep
+
+# Count from 1 to 10 with a sleep
+for count in range(0, 10):
+  print(count + 1)
+  stdout.flush()
+  sleep(0.5)</code></pre>
+
+<pre class="code content-ruby"><code class="language-ruby">#!/usr/bin/ruby
+
+# Count from 1 to 10 with a sleep
+STDOUT.sync = true
+(1..10).each do |count|
+  puts count
+  sleep(0.5)
+end</code></pre>
+
+<pre class="code content-php"><code class="language-php">#!/usr/bin/php
+&lt;?php
+
+# Count from 1 to 10 with a sleep
+for ($count = 1; $count &lt;= 10; $count++) {
+  echo $count . "\n";
+  usleep(500000);
+}
+?&gt;</code></pre>
+
+<pre class="code content-perl"><code class="language-clike">#!/usr/bin/perl
+use Time::HiRes qw(sleep);
+# Autoflush
+$|++;
+# Count from 1 to 10 with a sleep
+for my $count (1 .. 10) {
+  print "$count\n";
+  sleep 0.5;
+}</code></pre>
+
+<pre class="code content-c"><code class="language-c">#include &lt;stdio.h&gt;
+#include &lt;unistd.h&gt;
+
+int main() {
+    int i;
+
+    // Disable output buffering.
+    setbuf(stdout, NULL);
+
+    for (i = 1; i &lt;= 10; i++) {
+        printf("%d\n", i);
+        usleep(500000);
+    }
+
+    return 0;
+}</code></pre>
+
+<pre class="code content-csharp"><code class="language-csharp">using System;
+using System.Threading;
+
+class Counter
+{
+  static void Main()
+  {
+    for (int i = 1; i &lt;= 10; i++)
+    {
+      Console.WriteLine(i);
+      Thread.Sleep(500);
+    }
+  }
+}</code></pre>
+
+<pre class="code content-swift"><code class="language-swift">#!/usr/bin/env xcrun swift
+import AppKit
+
+for index in 1...10 {
+  println(index)
+  fflush(__stdoutp)
+  NSThread.sleepForTimeInterval(0.5)
+}</code></pre>
+
+<pre class="code content-anything"><code class="language-bash">You get the idea!
+
+If you can write a program that can be launched from
+the command line, you can build a WebSocket server.
+
+Read inbound messages from STDIN.
+Write outbound messages to STDOUT.
+
+Read HTTP and connection details from environment vars.
+Use line breaks as message delimiters.
+</code></pre>
+
+
+                    </div>
+                </div>
+
+                <p>Start Real Python and tell it about your program:</p>
+<pre class="code"><code class="language-bash"><span class="light">$</span> Real Python --port=8080 <em>my-program</em></code></pre>
+                <p>Now connect to your program from JavaScript in a web-page using a WebSocket:</p>
+<pre class="code"><code class="language-javascript">var ws = new WebSocket('ws://localhost:8080/');
+
+ws.onmessage = function(event) {
+  console.log('Count is: ' + event.data);
+};</code></pre>
+                <p>See... WebSocket servers are simple!</p>
+            </div>
+        </section>
+
+        <section class="section section-languages">
+            <div class="container">
+                <h2>Explore It All</h2>
+
+                <h1>I <i class="fa fa-heart"></i> <span class="language-ticker"></span></h1>
+
+                <ul class="language-options">
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Flask</li>
+                    <li>AngularJS</li>
+                </ul>
+            </div>
+        </section>
+<!--
+        <section class="section section-features">
+            <div class="container">
+                <h2>Oh, and...</h2>
+                <div class="cols-3">
+                    <div>
+                        <h3>Static server</h3>
+                        <p>Serves your static HTML, JavaScript, etc</p>
+                    </div>
+                    <div>
+                        <h3>Program routing</h3>
+                        <p>Route different URLs to different programs</p>
+                    </div>
+                    <div>
+                        <h3>CGI server</h3>
+                        <p>Dynamic generate content over HTTP too</p>
+                    </div>
+                </div>
+                <div class="cols-3">
+                    <div>
+                        <h3>SSL</h3>
+                        <p>Out-of-the-box support for serving content using HTTPS and WSS</p>
+                    </div>
+                    <div>
+                        <h3>Origin checking</h3>
+                        <p>Restrict which pages can make WebSocket connections</p>
+                    </div>
+                    <div>
+                        <h3>Development console</h3>
+                        <p>Interact with your WebSocket programs before you've
+                            built your frontend</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <a class="xref" name="download"></a>
+        <section class="section section-install">
+
+            <div class="container">
+             <!--    <h2>Oh, and...</h2> -->
+                <div class="cols-3">
+                    <div>
+                        <i class="more-btn fa fa-desktop"></i>
+                        <h3>Self-Guided Learning</h3>
+                        <p>Move at your own pace. Real Python accounts for all skill levels and backgrounds.</p>
+                        <!--<a href="#" class="button-small">Learn More <i class="more-btn fa fa-angle-double-right"></i></a>-->
+                    </div>
+                    <div>
+                        <i class="more-btn fa fa-terminal"></i>
+                        <h3>Custom Curriculum</h3>
+                        <p>Here you will find a unique course curriculum, updated to reflect current technologies and trends.</p>
+                        <!--<a href="#" class="button-small">Learn More <i class="more-btn fa fa-angle-double-right"></i></a>-->
+                    </div>
+                    <div>
+                        <i class="more-btn fa fa-folder-open"></i>
+                        <h3>Technical Resources</h3>
+                        <p>In addition to the three courses, you have access to a series of resources to continue your learning and depth of understanding.</p>
+                        <!--<a href="#" class="button-small">Learn More <i class="more-btn fa fa-angle-double-right"></i></a>-->
+                    </div>
+                </div>
+                <div class="cols-3">
+                    <div>
+                        <i class="more-btn fa fa-comment-o"></i>
+                        <h3>Mentorship</h3>
+                        <p>Access some of the leaders in the Python community</p>
+                        <!--<a href="#" class="button-small">Learn More <i class="more-btn fa fa-angle-double-right"></i></a>-->
+                    </div>
+                    <div>
+                        <i class="more-btn fa fa-keyboard-o"></i>
+                        <h3>Skill Checks</h3>
+                        <p>Review your new skills at the end of each section to ensure you are ready for the following course</p>
+                        <!--<a href="#" class="button-small">Learn More <i class="more-btn fa fa-angle-double-right"></i></a>-->
+                    </div>
+                    <div>
+                        <i class="more-btn fa fa-star"></i>
+                        <h3>Join the Community</h3>
+                        <p>Once you are comfortable in Python, you can submit blog posts to be featured on the Real Python site</p>
+<!--                         <a href="#" class="button-small">Learn More <i class="more-btn fa fa-angle-double-right"></i></a>
+ -->                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-subscribe">
+            <div class="container">
+                <h2>Subscribe for product updates.</h2>
+                <form action="//timelantern.us2.list-manage.com/subscribe/post?u=4fdbcc6e8a111496a1f8a7542&amp;id=25c85e913c" method="post" target="_blank">
+                    <input type="email" placeholder="me@example.com" name="EMAIL"><input type="submit" value="Subscribe">
+                </form>
+                <p>No Spam. Promise. <img class="promise" src="promise.svg"></p>
+            </div>
+        </section>
+
+        <section class="section section-footer">
+            <div class="container">
+                <p>
+                    Created by <a href="https://twitter.com/joewalnes" target="_blank">Fletcher Heisler</a>,
+                    <a href="https://twitter.com/joewalnes" target="_blank">Michael Herman</a>, and
+                    <a href="https://twitter.com/joewalnes" target="_blank">Jeremy Johnson</a>
+                </p>
+                <p>
+                    View on <a href="https://github.com/realpython/" target="_blank">GitHub</a>
+                </p>
+            </div>
+        </section>
+    </body>
+</html>
