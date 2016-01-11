@@ -343,3 +343,26 @@ pre[class*="language-"] {
     text-align: justify;
 }
 
+.download-btn {
+    border: 0;
+    background-color: #e67e22;
+    color: #fff;
+    padding: 12px 22px;
+    font-size: 1.1em;
+}
+
+.download-btn a {
+    text-decoration: none !important;
+}
+
+.download-btn a:visited {
+    color: #fff;
+}
+
+.download-btn:hover {
+    background-color: #d35400;
+}
+.download-btn:focus {
+    outline: none;
+    background-color: #7f8c8d;
+}
